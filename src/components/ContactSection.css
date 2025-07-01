@@ -1,0 +1,123 @@
+.contact-section {
+    padding: 4rem 2rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    background: white;
+  }
+  
+  .contact-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    background-color: #ffe585;
+    display: inline-block;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-description {
+    max-width: 600px;
+    font-size: 1.05rem;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    color: #222;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  
+  .contact-left {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .email-block, .socials-block {
+    margin-bottom: 2rem;
+  }
+  
+  .label-highlight {
+    background-color: #ffe585;
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .email-value {
+    border-bottom: 2px solid blue;
+    display: inline-block;
+    font-weight: 500;
+    color: #222;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .social-icons a {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .contact-form-container {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .contact-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.95rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    border: none;
+    border-bottom: 2px solid #555;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    background: transparent;
+    outline: none;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .blue-label {
+    background-color: #b2e4ff;
+    padding: 0.1rem 0.4rem;
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+  }
+  
+  .submit-button {
+    padding: 0.75rem 1.5rem;
+    background: black;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background: #333;
+  }
+  

@@ -1,0 +1,88 @@
+.project-section {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.section-heading span {
+  background-color: #fce88d;
+  padding: 6px 12px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 6px;
+}
+
+.project-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+.project-card {
+  width: 280px;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid black;
+  transition: transform 0.2s ease;
+}
+
+.project-card:nth-child(1) {
+  transform: rotate(-2deg);
+}
+.project-card:nth-child(2) {
+  transform: rotate(2deg);
+}
+.project-card:nth-child(3) {
+  transform: rotate(-1deg);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  border: 2px solid black;
+}
+
+.project-button {
+  margin-top: 12px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: 1px solid black;
+  background: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.check-portfolio-btn {
+  padding: 14px 28px;
+  border-radius: 999px;
+  border: 2px solid black;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.portfolio-description {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  max-width: 700px;
+  line-height: 1.5;
+  color: #333;
+
+  white-space: nowrap;          /* ✅ Don't wrap */
+               /* ✅ Hide overflow */
+  text-overflow: ellipsis;      /* ✅ Show ... if content exceeds */
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 768px) {
+  .portfolio-description {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
+  }
+}
+

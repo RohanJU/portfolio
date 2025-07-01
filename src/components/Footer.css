@@ -1,0 +1,106 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding: 3rem 2rem;
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.footer-icons i {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+  transition: color 0.2s ease;
+}
+
+.footer-icons i:hover {
+  color: #ffe07f;
+}
+
+.footer-content {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.footer-content h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-content p {
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.hire-btn {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border-radius: 9999px;
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1.5rem;
+  border-top: 1px solid #444;
+  font-size: 0.9rem;
+}
+
+.footer-bottom span {
+  font-weight: bold;
+}
+
+/* ✅ Responsive Fix */
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+  }
+
+  .footer-nav {
+    justify-content: center;
+  }
+
+  .footer-icons {
+    justify-content: center;
+  }
+}

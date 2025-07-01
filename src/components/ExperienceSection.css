@@ -1,0 +1,80 @@
+.experience-section {
+    padding: 4rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .section-header {
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .highlight-bg {
+    background-color: #ffe585;
+    padding: 0.3rem 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 2.5rem;
+    left: 2rem;
+    font-size: 2rem;
+    transform: rotate(-20deg);
+  }
+  
+  .experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .experience-card {
+    padding: 1.5rem 2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    position: relative;
+  }
+  
+  .experience-card .circle-accent {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  .experience-card .year {
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .experience-card .role {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+  }
+  
+  .experience-card .description {
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Background colors */
+  .pink {
+    background-color: #ffd3f3;
+  }
+  
+  .yellow {
+    background-color: #ffee9d;
+  }
+  
+  .blue {
+    background-color: #b3e8ff;
+  }
+  

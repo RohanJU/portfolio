@@ -1,0 +1,102 @@
+/* Navbar.css */
+
+.navbar {
+  max-width: 1200px;
+  margin: 24px auto;
+  padding: 16px 24px;
+  border: 1px solid black;
+  border-radius: 9999px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.logo {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px 14px;
+  border-radius: 8px;
+  background-color: #b3e7ff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.hire-btn {
+  background-color: black;
+  color: white;
+  padding: 6px 16px;
+  font-size: 13px;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+.menu-toggle {
+  display: none;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 80px;
+  right: 24px;
+  background-color: white;
+  padding: 16px 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  z-index: 50;
+}
+
+.mobile-menu li {
+  margin-bottom: 12px;
+}
+
+.hire-btn-mobile {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.icon-row {
+  display: flex;
+  gap: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links,
+  .nav-icons {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
