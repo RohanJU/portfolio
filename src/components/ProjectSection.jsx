@@ -4,9 +4,9 @@ import ProjectCard from "./ProjectCard";
 import "./ProjectSection.css";
 
 function ProjectSection() {
-  const collegeonn = "/src/assets/pngegg (18).png";
-  const easyacademy = "/src/assets/pngegg (22).png";
-  const druzeanalytics = "/src/assets/pngegg (23).png";
+  const collegeonn = "/assets/pngegg (18).png";
+  const easyacademy = "/assets/pngegg (22).png";
+  const druzeanalytics = "/assets/pngegg (23).png";
 
   return (
     <section className="project-section">

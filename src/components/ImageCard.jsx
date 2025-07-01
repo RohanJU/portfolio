@@ -1,17 +1,13 @@
 const ImageCard = () => {
-    return (
-      <div className="image-stack">
-        <div className="card bg-yellow rotate-[-8deg]" />
-        <div className="card bg-blue rotate-[8deg]" />
-        <div className="card bg-pink">
-          <img
-            src="/src/assets/rename_3.png"
-            alt="Rohan"
-          />
-        </div>
+  return (
+    <div className="image-stack">
+      <div className="card bg-yellow rotate-[-8deg]" />
+      <div className="card bg-blue rotate-[8deg]" />
+      <div className="card bg-pink">
+        <img src="/assets/rename_3.png" alt="Rohan" />
       </div>
-    );
-  };
-  
-  export default ImageCard;
-  
+    </div>
+  );
+};
+
+export default ImageCard;

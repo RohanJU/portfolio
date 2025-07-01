@@ -15,21 +15,21 @@ const FullProjectSection = () => {
       <div className="project-cards-container">
         <ProjectCard
           title="CollegeONN"
-          image="/src/assets/pngegg (18).png"
+          image="/assets/pngegg (18).png"
           bgColor="#B3E5FC"
           tilt={-2}
           link="https://collegeonn.com/"
         />
         <ProjectCard
           title="Easy Academy"
-          image="/src/assets/pngegg (22).png"
+          image="/assets/pngegg (22).png"
           bgColor="#FFF59D"
           tilt={2}
           link="https://easyacademy.in/"
         />
         <ProjectCard
           title="Druze Analytics"
-          image="/src/assets/pngegg (23).png"
+          image="/assets/pngegg (23).png"
           bgColor="#F8BBD0"
           tilt={-1}
           link="https://druzeanalytics.in/"
