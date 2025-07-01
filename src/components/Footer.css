@@ -2,7 +2,7 @@
   background-color: black;
   color: white;
   padding: 3rem 2rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   width: 100%;
   box-sizing: border-box;
   overflow-x: hidden;
@@ -74,7 +74,13 @@
   color: black;
   cursor: pointer;
   width: 100%;
-  max-width: 300px;
+  max-width: 100px;
+}
+.hire-btn:hover {
+  background-color: #ffe07f;
+  color: black;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 224, 127, 0.4);
 }
 
 .footer-bottom {
@@ -103,4 +109,15 @@
   .footer-icons {
     justify-content: center;
   }
+}
+.footer-nav li {
+  cursor: pointer;
+}
+.footer-nav li:hover{
+  color: #ffe07f;
+  text-decoration: underline; 
+}
+.footer-nav a:hover {
+  color: #ffe07f;
+  text-decoration: underline;
 }

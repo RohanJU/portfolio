@@ -100,3 +100,38 @@
     display: block;
   }
 }
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #0077ff;
+}
+
+.nav-links li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #0077ff;
+  transition: width 0.3s ease;
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
+}
+.nav-icons a svg {
+  font-size: 18px;
+  color: black;
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
+
+.nav-icons a svg:hover {
+  color: #0077ff;
+}

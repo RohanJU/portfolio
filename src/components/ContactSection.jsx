@@ -1,5 +1,7 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import "./ContactSection.css";
+import { SiX } from "react-icons/si"; // ✅ New Twitter X icon
+
 
 const ContactSection = () => {
   return (
@@ -29,11 +31,12 @@ const ContactSection = () => {
                 <FaLinkedin /> LinkedIn
               </a>
               <a
-                href="https://github.com/rohanjadavpur"
+                href="https://x.com/RohanSr52077381"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="Twitter"
               >
-                <FaGithub /> GitHub
+                <SiX />
               </a>
             </div>
           </div>

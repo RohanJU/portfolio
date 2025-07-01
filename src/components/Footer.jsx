@@ -1,24 +1,32 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./Footer.css";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const handleNavigateAndScrollTop = (path) => {
+    navigate(path);
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 100);
+  };
+
   return (
     <footer className="footer">
       <div className="footer-top">
         <ul className="footer-nav">
-          <li>
-            <Link to="/portfolio">Portfolio</Link>
+          <li onClick={() => handleNavigateAndScrollTop("/portfolio")}>
+            Portfolio
           </li>
           <li>
-            <a href="#faq">FAQ</a>
+            <HashLink smooth to="/#faq">
+              FAQ
+            </HashLink>
           </li>
           <li>
-            <a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </li>
@@ -58,9 +66,12 @@ const Footer = () => {
           Let’s make something incredible together! Reach out to discuss your
           project, and let’s create designs that resonate and inspire.
         </p>
-        <Link to="/contact">
-          <button className="hire-btn">Hire Me!</button>
-        </Link>
+        <button
+          className="hire-btn"
+          onClick={() => handleNavigateAndScrollTop("/contact")}
+        >
+          Hire Me!
+        </button>
       </div>
 
       <div className="footer-bottom">
