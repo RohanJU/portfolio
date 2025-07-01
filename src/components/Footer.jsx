@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -7,13 +8,17 @@ const Footer = () => {
       <div className="footer-top">
         <ul className="footer-nav">
           <li>
-            <a href="/portfolio">Portfolio</a>
+            <Link to="/portfolio">Portfolio</Link>
           </li>
           <li>
             <a href="#faq">FAQ</a>
           </li>
           <li>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Resume
             </a>
           </li>
@@ -53,6 +58,9 @@ const Footer = () => {
           Let’s make something incredible together! Reach out to discuss your
           project, and let’s create designs that resonate and inspire.
         </p>
+        <Link to="/contact">
+          <button className="hire-btn">Hire Me!</button>
+        </Link>
       </div>
 
       <div className="footer-bottom">
