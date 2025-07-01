@@ -53,9 +53,6 @@ const Footer = () => {
           Let’s make something incredible together! Reach out to discuss your
           project, and let’s create designs that resonate and inspire.
         </p>
-        <a href="/contact">
-          <button className="hire-btn">Hire Me!</button>
-        </a>
       </div>
 
       <div className="footer-bottom">
